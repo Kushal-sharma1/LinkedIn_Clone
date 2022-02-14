@@ -29,7 +29,7 @@
     height:3vh;
 }
 .header div h5{
-    width:20rem;
+    width:30vw;
     height: 1.3rem;
     border-radius:0.5rem;
     background-color: lightgray;
@@ -41,6 +41,7 @@
     margin-top:2vw;
     justify-content: center;
     background-color: aliceblue;
+    flex-wrap: wrap;
 }
 .body>div{
     background-color: white;
@@ -54,6 +55,48 @@
 .body .main{
     width:30vw;
 }
+.main .mypost img{
+    width: 2vw;
+    height:2vw;
+
+}
+.mypost div{
+    display:flex;
+}
+.mypost div>img{
+    margin-top:2rem;
+}
+.mypost>div>h5{
+    border-style: solid;
+    width:25vw;
+    height:2.6vw;
+    color:grey;
+     font-size: 1.2rem;
+     font-weight: 0.01rem;
+    border-width:0.01rem ;
+    border-radius: 1.2vw;
+    padding-left:1vw;
+    padding-top: 0.5vw;
+}
+.mypost ul{
+    display:flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-around;
+}
+.mypost li{
+    margin: 1.7vw;
+}
+
 .body .section{
     width:20vw;
+    
+}
+.footer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    color:grey;
+    align-content: center;
+    font-size: 1.2rem;
 }
