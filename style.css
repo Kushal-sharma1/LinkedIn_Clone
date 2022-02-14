@@ -1,0 +1,59 @@
+.header ul{
+   list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height:5vw;
+    
+}
+/* logo */
+.header div>img{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    width:3vw;
+    height:3vw;
+}
+.header li{
+    margin-right:2rem;
+   text-align: center;
+}
+.header>div{
+    display: flex;
+    margin-left: 20vw;
+}
+.header img{
+    width: 2vw;
+    height:3vh;
+}
+.header div h5{
+    width:20rem;
+    height: 1.3rem;
+    border-radius:0.5rem;
+    background-color: lightgray;
+    color:grey;
+    padding-bottom: 1rem;
+}
+.body{
+    display:flex;
+    margin-top:2vw;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.body>div{
+    background-color: white;
+    margin-left:1vw;
+}
+/* main content */
+.body .aboutMe{
+    width:20vw;
+
+}
+.body .main{
+    width:30vw;
+}
+.body .section{
+    width:20vw;
+}
