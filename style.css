@@ -2,27 +2,29 @@
    list-style-type: none;
     display: flex;
     justify-content: space-around;
+    margin-right:10vw;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    height:5vw;
+    height:7vh;
     
 }
 /* logo */
 .header div>img{
-    margin-top: 1.5rem;
-    margin-right: 1rem;
+    margin-top: 1vw;
+    margin-right: 1vw;
     width:3vw;
     height:3vw;
 }
 .header li{
-    margin-right:2rem;
+    margin-right:2vw;
    text-align: center;
 }
 .header>div{
     display: flex;
-    margin-left: 20vw;
+    margin-left: 10vw;
+   
 }
 .header img{
     width: 2vw;
@@ -48,7 +50,7 @@
 }
 .body>div{
     background-color: white;
-    margin-left:1vw;
+    padding:1vw;
 }
 /* main content */
 .body .aboutMe{
